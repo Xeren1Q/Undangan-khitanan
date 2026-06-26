@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Undangan Resepsi Khitanan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;500&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <audio id="music" loop>
+        <source src="backsound.mp3">
+    </audio>
+    <section class="cover" id="cover">
+        <div class="card">
+            <div class="logo">☪</div>
+            <h3>Kepada Yth.</h3>
+            <h2 id="guest">Tamu Undangan</h2>
+            <br>
+            <h1 class="title">
+                Resepsi Khitanan
+            </h1>
+            <h2>Ananda</h2>
+            <h1>
+                MUHAMMAD RIZKY MAULANA
+            </h1>
+            <p>
+                Merupakan suatu kehormatan
+                bagi kami apabila berkenan hadir.
+            </p>
+            <button onclick="openInvite()">
+                Buka Undangan
+            </button>
+        </div>
+    </section>
+    <div id="content" class="hidden">
+        <section class="section">
+            <div class="card">
+                <h1>Menuju Hari Bahagia</h1>
+                <div class="countdown">
+                    <div class="item">
+                        <div id="d" class="number">0</div>
+                        Hari
+                    </div>
+                    <div class="item">
+                        <div id="h" class="number">0</div>
+                        Jam
+                    </div>
+                    <div class="item">
+                        <div id="m" class="number">0</div>
+                        Menit
+                    </div>
+                    <div class="item">
+                        <div id="s" class="number">0</div>
+                        Detik
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="card">
+                <h1>Detail Acara</h1>
+                <br>
+                📅 Minggu, 05 Juli 2026
+                <br><br>
+                🕘 10.00 WIB
+                <br><br>
+                📍 Kediaman Keluarga
+                <br><br>
+                <a class="btn" href="https://maps.app.goo.gl/KNWEAfqpiihiPHDr7" target="_blank">
+                    Buka Google Maps
+                </a>
+            </div>
+        </section>
+        <section class="section">
+            <div class="card">
+                <h1>Galeri</h1>
+                <br>
+                <div class="gallery">
+                    <img src="20260521_073130.jpg">
+                    <img src="IMG-20241218-WA0001.jpeg">
+                    <img src="IMG-20250807-WA0016.jpg">
+                    <img src="IMG_20260621_195714.jpg">
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="card">
+                <h1>Konfirmasi Kehadiran</h1>
+                <p>
+                    Silakan konfirmasi melalui WhatsApp
+                </p>
+                <a class="btn" href="https://wa.me/6287883059280?text=Saya+akan+hadir" target="_blank">
+                    RSVP WhatsApp
+                </a>
+            </div>
+        </section>
+        <section class="section">
+            <h2>
+                Terima Kasih Atas Doa dan Kehadiran Anda
+            </h2>
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
